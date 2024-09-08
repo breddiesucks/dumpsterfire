@@ -14,3 +14,9 @@ ayumuKasuga w x y z = take z [x,(if w == "add" then
                                          x * y else
                                          (if w == "div" then
                                             x / y else 0))))..]
+
+-- few list functions which can come in handy
+-- take = take the first 'n' values
+-- cycle = repeat the values 'n' times
+-- repeat = repeat one value for 'n' times
+-- replicate = same as repeat but the argument layout is swapped
